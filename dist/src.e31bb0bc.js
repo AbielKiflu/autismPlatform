@@ -37151,16 +37151,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Login() {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "login-container"
-  }, /*#__PURE__*/_react.default.createElement("form", null, /*#__PURE__*/_react.default.createElement("label", {
-    htmlFor: "email"
-  }, "Email"), /*#__PURE__*/_react.default.createElement("input", {
+  }, /*#__PURE__*/_react.default.createElement("form", null, /*#__PURE__*/_react.default.createElement("h2", null, "Login"), /*#__PURE__*/_react.default.createElement("input", {
     id: "email",
     type: "text",
     className: "field",
     placeholder: "Email"
-  }), /*#__PURE__*/_react.default.createElement("label", {
-    htmlFor: "pwd"
-  }, "Mot de passe"), /*#__PURE__*/_react.default.createElement("input", {
+  }), /*#__PURE__*/_react.default.createElement("input", {
     id: "pwd",
     type: "password",
     className: "field",
@@ -37206,8 +37202,8 @@ function Header() {
   }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
     src: _logo.default
   }), " ", /*#__PURE__*/_react.default.createElement("h1", null, "P\xF4le Autisme Namur")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
-    to: "./faq"
-  }, " FQA "))));
+    to: "./accueil"
+  }, " Accueil "))));
 }
 },{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../style/Header.scss":"style/Header.scss","../assets/logo.jpg":"assets/logo.jpg"}],"Apps.js":[function(require,module,exports) {
 "use strict";
@@ -37276,7 +37272,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37549" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37109" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

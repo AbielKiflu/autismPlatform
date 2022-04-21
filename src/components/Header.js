@@ -9,7 +9,7 @@ export default function Header(){
         <nav className="nav">
             <ul>
                 <li><img src={logo}/> <h1>Pôle Autisme Namur</h1></li>
-                <li><Link to="./faq"> FQA </Link></li>
+                <li><Link to="./accueil"> Accueil </Link></li>
             </ul>
         </nav>
     );

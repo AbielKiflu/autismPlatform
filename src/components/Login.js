@@ -8,9 +8,9 @@ export default function Login(){
         <>
           <div className="login-container">
           <form>
-                <label htmlFor="email">Email</label>
+                 <h2>Login</h2>
                 <input id="email" type="text" className="field" placeholder="Email"/>
-                <label htmlFor="pwd">Mot de passe</label>
+                 
                 <input id="pwd" type="password" className="field" placeholder="Mot de passe"/>    
                 <input type="submit" value="Connexion" className="btn" />  <input type="submit" value="Inscription" className="btn" />
        
