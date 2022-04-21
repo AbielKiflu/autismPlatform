@@ -37203,7 +37203,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Header() {
   return /*#__PURE__*/_react.default.createElement("nav", {
     className: "nav"
-  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h1", null, "P\xF4le Autisme Namur")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: _logo.default
+  }), " ", /*#__PURE__*/_react.default.createElement("h1", null, "P\xF4le Autisme Namur")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: "./faq"
   }, " FQA "))));
 }
@@ -37274,7 +37276,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43397" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37549" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
