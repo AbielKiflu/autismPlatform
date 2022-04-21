@@ -12,8 +12,10 @@ export default function Login(){
                 <input id="email" type="text" className="field" placeholder="Email"/>
                  
                 <input id="pwd" type="password" className="field" placeholder="Mot de passe"/>    
-                <input type="submit" value="Connexion" className="btn" />  <input type="submit" value="Inscription" className="btn" />
-       
+                <div className="btn-container">
+                <input type="submit" value="Connexion" className="btn" />  
+                <input type="submit" value="Inscription" className="btn" />
+                </div>
             </form>
           </div>
 

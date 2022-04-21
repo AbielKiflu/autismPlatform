@@ -37161,15 +37161,17 @@ function Login() {
     type: "password",
     className: "field",
     placeholder: "Mot de passe"
-  }), /*#__PURE__*/_react.default.createElement("input", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "btn-container"
+  }, /*#__PURE__*/_react.default.createElement("input", {
     type: "submit",
     value: "Connexion",
     className: "btn"
-  }), "  ", /*#__PURE__*/_react.default.createElement("input", {
+  }), /*#__PURE__*/_react.default.createElement("input", {
     type: "submit",
     value: "Inscription",
     className: "btn"
-  }))));
+  })))));
 }
 },{"react":"../node_modules/react/index.js","../style/Login.scss":"style/Login.scss"}],"style/Header.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
