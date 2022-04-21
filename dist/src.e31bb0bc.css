@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: white;
+  margin: 0.4rem 0;
+  background: #007AA5;
+  border-radius: 0.4rem;
+  border: none;
+}
+.btn:hover {
+  background: #1e404d;
+}
+
+.field {
+  width: 100%;
+  padding: 0.8rem 1.1rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.field:focus {
+  outline: #1e404d;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #C4D8E2;
+  border-radius: 0.4rem;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
