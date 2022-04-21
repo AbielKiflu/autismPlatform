@@ -32,18 +32,18 @@
 }
 
 .login-container{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
   display:flex;
   flex-direction:row;
   justify-content:center;
   align-items:center;
   display: inline-block;
-  padding: 2rem;
-  margin: 1rem;
+  padding: 5rem;
+  margin: 2rem;
   background: $sky;
   border-radius:0.4rem;
    
+}
+
+h2{
+  text-align: center;
 }
