@@ -1,0 +1,29 @@
+@import 'variable';
+
+.nav{
+    background: $sky;
+ 
+        ul{
+            width: 100%;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+                li{
+                    display: inline-block;
+                    padding:0.5rem;
+                        a{
+                            text-decoration: none;
+                            color:$blue-dark;
+                            font-weight: bold;
+                        }
+                }
+        }
+}
+
+
+h1{
+    color:$blue-dark;
+    display: inline-block;
+}

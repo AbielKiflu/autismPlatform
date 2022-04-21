@@ -1,4 +1,5 @@
 import React from 'react';
+import "../style/Login.scss";
 
 export default function Login(){
 
@@ -9,13 +10,9 @@ export default function Login(){
           <form>
                 <label htmlFor="email">Email</label>
                 <input id="email" type="text" className="field" placeholder="Email"/>
-                
-                
                 <label htmlFor="pwd">Mot de passe</label>
                 <input id="pwd" type="password" className="field" placeholder="Mot de passe"/>    
-                
-
-               <input type="submit" value="Connexion" className="btn" />  <input type="submit" value="Inscription" className="btn" />
+                <input type="submit" value="Connexion" className="btn" />  <input type="submit" value="Inscription" className="btn" />
        
             </form>
           </div>
